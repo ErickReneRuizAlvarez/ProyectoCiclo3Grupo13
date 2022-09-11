@@ -73,6 +73,8 @@ REST_FRAMEWORK={
       )
 }
 
+AUTH_USER_MODEL = 'authApp.User'
+
 ROOT_URLCONF = 'authProject.urls'
 
 TEMPLATES = [
@@ -100,10 +102,10 @@ WSGI_APPLICATION = 'authProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'decus28ge3vocl',
-        'USER': 'xzqciutasdmvdq',
-        'PASSWORD': '5900898ce1609e44b040da4ded67557dde24f174323063a84d5073aafcc2ae69',
-        'HOST': 'ec2-44-210-36-247.compute-1.amazonaws.com',
+        'NAME': 'd1u56bj6ghe2n6',
+        'USER': 'okoxozauucgbtn',
+        'PASSWORD': '52883adc9c2f8703249ab8db9a0d5917ea3fa2595a39e3f002b3513cc7f88933',
+        'HOST': 'ec2-44-195-132-31.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
