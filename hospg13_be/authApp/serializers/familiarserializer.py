@@ -4,4 +4,4 @@ from rest_framework import serializers
 class FamiliarSerializer(serializers.ModelSerializer):
     class Meta:
         model= Familiar
-        fields= ('usarname','idpaciente','parentesco','correo')
+        fields= ('username','idpaciente','parentesco','correo')
